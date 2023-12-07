@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+}
+body {
+  background:black;
+}
+#menu a {
+      text-decoration: none;
+    color: WHite;
+    padding: 5px;
+    background-color: rgb(226, 40, 124);;
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#menu {
+    background-color: mediumpurple;
+    height:25px;
+    padding: 5px;
+    width:351px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(226, 40, 124);
+   width: 351px;
+   height: 400px;
+   padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#head {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    width: 351px;
+    padding: 5px;
+    background-color: rgb(149, 93, 223);
+}
+
+#first {
+position: absolute;
+z-index: 1;
+height:300px;
+width: 300px;
+background-color: rgb(226, 40, 124);
+}
+
+#first img {
+    height: 300px;
+    width: 300px;
+}
+
+.second {
+position: absolute;
+z-index: 2;
+height:300px;
+width: 300px;
+background-color: rgb(226, 40, 124);
+}
+.second img {
+height:300px;
+width: 300px;
+}
+
+#button {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    padding: 15px;
+    color: maroon;
+    background-color: plum;
+    font-size: 15px;
+    font-weight: 900;
+    border: 0.5px solid plum;
+    border-radius: 20px;
+}
+
+.second:hover {
+    transition: all;
+    transition-duration: 3s;
+    transform: rotate(360deg);
+    z-index: 0;
+}
+
+
+#button:hover {
+  background: white;
+  color: grey;
+} 
