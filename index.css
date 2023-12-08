@@ -68,7 +68,7 @@ height:300px;
 width: 300px;
 }
 
-#button {
+.button {
     cursor: pointer;
     position: relative;
     text-align: center;
@@ -90,7 +90,12 @@ width: 300px;
 }
 
 
-#button:hover {
+.button:hover {
   background: white;
   color: grey;
 } 
+
+#btn1 {
+background: white;
+color: grey;
+}
